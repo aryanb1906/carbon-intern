@@ -99,3 +99,31 @@ python manage.py test
 
 ---
 If you want, I can also add a `Makefile` or `scripts/` helpers to standardize the local commands above. Ready to add that next?
+
+**Developer scripts**
+
+We provide a small cross-platform task runner in `scripts/task.py` and a few convenience wrappers for Windows PowerShell.
+
+General usage (cross-platform):
+
+```bash
+# Run any task via the Python runner
+python scripts/task.py backend-install
+python scripts/task.py backend-run
+python scripts/task.py frontend-build
+python scripts/task.py docker-up
+```
+
+PowerShell shortcuts (Windows users):
+
+```powershell
+# Run a specific task
+.\scripts\task.ps1 backend-run
+
+# Or use dedicated helpers
+.\scripts\backend-run.ps1
+.\scripts\frontend-build.ps1
+.\scripts\docker-up.ps1
+```
+
+The `Makefile` targets are also available on macOS/Linux for quick commands.
