@@ -1,7 +1,6 @@
 # 🌿 CarbonTrace — Enterprise ESG Data Ingestion & Audit Platform
 
 [![CI](https://github.com/aryanb1906/carbon-intern/actions/workflows/ci.yml/badge.svg)](https://github.com/aryanb1906/carbon-intern/actions/workflows/ci.yml)
-[![Render status](https://img.shields.io/website?label=render&down_color=red&down_message=down&up_message=up&url=https://carbon-intern.onrender.com)](https://carbon-intern.onrender.com)
 [![Pages Deploy](https://github.com/aryanb1906/carbon-intern/actions/workflows/deploy-frontend-pages.yml/badge.svg)](https://github.com/aryanb1906/carbon-intern/actions/workflows/deploy-frontend-pages.yml)
 [![Render Deploy](https://github.com/aryanb1906/carbon-intern/actions/workflows/render-deploy.yml/badge.svg)](https://github.com/aryanb1906/carbon-intern/actions/workflows/render-deploy.yml)
 
