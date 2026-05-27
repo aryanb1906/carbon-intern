@@ -62,7 +62,7 @@ jobs:
           npm install --no-save pa11y http-server
           npx http-server ./dist -p 5000 &>/dev/null &
           sleep 2
-          npx pa11y http://127.0.0.1:5000 || true
+          npx pa11y http://127.0.0.1:5000
       - name: Upload frontend artifact
         uses: actions/upload-artifact@v3
         with:
