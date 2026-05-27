@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/aryanb1906/carbon-intern/actions/workflows/ci.yml/badge.svg)](https://github.com/aryanb1906/carbon-intern/actions/workflows/ci.yml)
 [![Render status](https://img.shields.io/website?label=render&down_color=red&down_message=down&up_message=up&url=https://carbon-intern.onrender.com)](https://carbon-intern.onrender.com)
+[![Pages Deploy](https://github.com/aryanb1906/carbon-intern/actions/workflows/deploy-frontend-pages.yml/badge.svg)](https://github.com/aryanb1906/carbon-intern/actions/workflows/deploy-frontend-pages.yml)
 
 CarbonTrace is a full-stack platform for ingesting, normalizing, and auditing Scope 1/2/3 emissions data. This repository contains a Django REST API backend and a React + Vite frontend designed for data teams and sustainability workflows.
 
