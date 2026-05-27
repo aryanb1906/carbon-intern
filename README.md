@@ -98,8 +98,6 @@ python manage.py test
 - Open PRs against `main`. For large changes, open an issue first describing the approach and migration steps.
 
 ---
-If you want, I can also add a `Makefile` or `scripts/` helpers to standardize the local commands above. Ready to add that next?
-
 **Developer scripts**
 
 We provide a small cross-platform task runner in `scripts/task.py` and a few convenience wrappers for Windows PowerShell.
