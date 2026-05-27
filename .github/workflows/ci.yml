@@ -9,6 +9,9 @@ on:
 jobs:
   backend-tests:
     runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: sqlite:///db.sqlite3
+      SECRET_KEY: ci-secret-key
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
