@@ -1,7 +1,6 @@
 # 🌿 CarbonTrace — Enterprise ESG Data Ingestion & Audit Platform
 
-[![CI](https://github.com/aryanb1906/carbon-intern/actions/workflows/ci.yml/badge.svg)](https://github.com/aryanb1906/carbon-intern/actions/workflows/ci.yml)
-[![Pages Deploy](https://github.com/aryanb1906/carbon-intern/actions/workflows/deploy-frontend-pages.yml/badge.svg)](https://github.com/aryanb1906/carbon-intern/actions/workflows/deploy-frontend-pages.yml)
+ 
 
 CarbonTrace is a full-stack platform for ingesting, normalizing, and auditing Scope 1/2/3 emissions data. This repository contains a Django REST API backend and a React + Vite frontend designed for data teams and sustainability workflows.
 
